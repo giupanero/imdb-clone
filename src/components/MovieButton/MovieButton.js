@@ -1,5 +1,13 @@
-const MovieButton = ({text}) => {
-     return <div><a href="">{text}</a></div>
-}
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default MovieButton 
+
+const MovieButton = ({ text, icon }) => {
+  return (
+    <div>
+      <FontAwesomeIcon icon={icon} />
+      <a href="">{text}</a>
+    </div>
+  );
+};
+
+export default MovieButton;

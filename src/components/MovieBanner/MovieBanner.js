@@ -1,5 +1,7 @@
+import './MovieBanner.css';
+
 const MovieBanner = ({url}) => {
-    return <img src = {url}></img>
+    return <img className='poster' src = {url}/>
 }
 
 export default MovieBanner
