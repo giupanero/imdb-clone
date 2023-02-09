@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import "./MovieButton.css";
 
 const MovieButton = ({ text, icon }) => {
   return (
-    <div>
-      <FontAwesomeIcon icon={icon} />
-      <a href="">{text}</a>
-    </div>
+    <a href="">
+      <FontAwesomeIcon style={{paddingRight: "5px"}} icon={icon} />
+      {text}
+    </a>
   );
 };
 

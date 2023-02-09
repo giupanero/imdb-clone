@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const MovieRating = ({number}) => {
   return <div>
-      <FontAwesomeIcon icon={faStar} />
+      <FontAwesomeIcon style={{color:"#FFD217"}}  icon={faStar} />
       <span>{number}</span>
     </div>
 }
